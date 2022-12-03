@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start:build": "tsc -w",
-    "start:run": "nodemon build/index.js",
-    "start": "concurrently npm:start:*"
+    "start1:run": "nodemon build/01.sorter/index.js",
+    "start2:run": "nodemon build/02.inheritance/index.js",
+    "start1": "concurrently npm:start:build npm:start1:run",
+    "start2": "concurrently npm:start:build npm:start2:run"
   },
   "keywords": [],
   "author": "",

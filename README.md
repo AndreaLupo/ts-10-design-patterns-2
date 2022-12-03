@@ -8,3 +8,4 @@ Topics:
 
 - interfaces to make code more generic
 - class getters (`NumbersCollections.ts`)
+- abstract classes to share common functionality through classes that provides a different implementation
